@@ -2,9 +2,6 @@ require 'sinatra'
 require 'sinatra/cross_origin'
 require 'harvested'
 
-
-set :port, 3001
-
 configure do
   enable :cross_origin
 end
